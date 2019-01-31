@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action=" http://www.webucator.com/course-demos/htm101/process-form.cfm" method="POST">
+        <div>
+                <input type="hidden" name="emailMe" id="emailMe" value="you@you.com">
+        
+                <label for="username">User name:</label>
+                <input type="text" name="username" id="username" size="15">
+            </div>
+<div>
+    <label for="password">Password:</label>
+    <input type="password" name="pw" id="pw">
+</div>
+<div>
+        <label for="Register">Register:</label>
+        <input type="button" name="register" id="register">
+    </div>
+    </form>
+    <div>
+        <label for="gender">masculino</label>
+        <input type="radio" name="gender" id="genderm" value="m">
+    </div>
+    <div>
+            <label for="gender">feminino</label>
+            <input type="radio" name="gender" id="genderr" value="f">
+        </div>
+        <div>
+            <label for="checkbox">confirmar</label>
+            <input type="checkbox" name="terms" id="terms">
+        </div>
+
+        <div>
+            
+            <select  name="referral" id="referral">  
+                    <optgroup label="--Please choose--" value="0">    
+                      <option value="word">"Word of Mouth"</option>      
+                      <option value="other">"Other"</option>    
+                    </optgroup>  
+                    <optgroup label="Search Engine">    
+                      <option value="Google">"Google"</option>    
+                      <option value="Yahoo">"Yahoo!"</option> 
+                      <option value="facebook">"facebook"</option>   
+                    </optgroup>
+                  </select> 
+        </div>
+       <textarea name="coments" id="coments" rows="10" cols="30">
+           
+       </textarea>
+</body>
+</html>
